@@ -30,7 +30,7 @@ DELETE - http://localhost:3000/api/products/$[id]
 
 ### Swagger
 
-[http://localhost:3000/swagger](http://localhost:3000/swagger)
+http://localhost:3000/swagger
 
 ```
 
