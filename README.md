@@ -1,5 +1,11 @@
 # CRUD - Next.js + Jest
 
+## Getting Started
+
+```
+npm run dev
+```
+
 ### Endpoints
 
 ##### GET ALL
