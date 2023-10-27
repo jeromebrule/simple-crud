@@ -2,12 +2,13 @@ import Server from 'next/server';
 
 /**
  * @swagger
- * /api/healthcheck:
+ * /api:
  *   get:
- *     description:
+ *     summary: API Health Check!
+ *     description: API Health Check!
  *     responses:
  *       200:
- *         description: Health Check!
+ *         description: Up and Running!
  */
 export async function GET() {
   const timestamp = new Date().toISOString();
