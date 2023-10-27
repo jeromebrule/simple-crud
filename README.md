@@ -2,8 +2,10 @@
 
 ### Endpoints
 
+#### GET ALL
+
 ```
-  GET ALL - http://localhost:3000/api/products
+   [http://localhost:3000/api/products](http://localhost:3000/api/products)
 ```
 
 ```
