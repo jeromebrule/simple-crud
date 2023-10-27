@@ -5,7 +5,7 @@ import "swagger-ui-react/swagger-ui.css";
 
 const SwaggerUI = dynamic<{
   spec: any;
-}>(import("swagger-ui-react"), { ssr: false });
+}>(import("swagger-ui-react"!), { ssr: false });
 
 function ApiDoc({ spec }: InferGetStaticPropsType<typeof getStaticProps>) {
   return <SwaggerUI spec={spec} />;
@@ -17,7 +17,7 @@ export const getStaticProps: GetStaticProps = async () => {
     definition: {
       openapi: "3.0.0",
       info: {
-        title: "Next Swagger API Example",
+        title: "CRUD",
         version: "1.0",
       },
     },
