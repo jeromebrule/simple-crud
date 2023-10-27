@@ -1,11 +1,5 @@
 # CRUD - Next.js + Jest
 
-## Running Tests
-
-```bash
-npm test
-```
-
 ### Endpoint
 
 ```
@@ -18,11 +12,15 @@ npm test
 
 ### Swagger
 
-<sup>There's a weird error in the package.</sup>
-
 [http://localhost:3000/swagger](http://localhost:3000/swagger)
 
 ```
 http://localhost:3000/swagger
 
+```
+
+### Running Tests
+
+```
+npm test
 ```
