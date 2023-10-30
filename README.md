@@ -3,10 +3,8 @@
 ## Getting Started
 
 ```
-npm run dev
+docker compose up
 ```
-
-### Endpoints
 
 ##### GET ALL
 
