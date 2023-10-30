@@ -81,7 +81,7 @@ export async function GET(
 /**
  * @swagger
  * /api/products/{id}:
- *   put:
+ *   patch:
  *     summary: Update a single product.
  *     description: Update a single product by ID.
  *     parameters:
@@ -171,7 +171,7 @@ export async function GET(
  *                       description: Where the project is located
  */
 
-export async function PUT(
+export async function PATCH(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
